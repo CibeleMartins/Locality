@@ -14,7 +14,7 @@ export default function Header() {
             
               <nav className={styles.navbar}>
                 <Link to='/'>REGISTER</Link>
-                <Link to='/drinksFunc'>VIEW</Link>
+                <Link to='/view'>VIEW</Link>
               </nav>
           </header>
         </>
