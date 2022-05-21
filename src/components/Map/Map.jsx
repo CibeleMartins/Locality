@@ -1,8 +1,10 @@
-import { useState } from 'react';
-import L from 'leaflet';
+
 import React from 'react';
+import L from 'leaflet';
 import {MapContainer, Marker, TileLayer, Popup} from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import Header from '../Header/Header'
+
 
 
 const position = [-24.89, -51.55];
@@ -12,10 +14,14 @@ export default function Map() {
 
   return (
 
+    <>
+
+    <Header></Header>
+
     <MapContainer
       center={position}
       zoom={10}
-      style={{ width: '100vw', height: '100vh' }}
+      style={{ width: '100%', height: '80vh', marginTop:'40px'}}
     >
 
       <TileLayer
@@ -27,7 +33,8 @@ export default function Map() {
       </Popup>
     </Marker>
      
-      
     </MapContainer>
+
+    </>
   );
 }
