@@ -10,12 +10,12 @@ export default function Form({btnText}) {
 
           <form className={styles.form}>
 
-            <Input type="text" placeholder="Locality name"/>
+            <Input type="text" placeholder="Localidade"/>
           
             <Input type="text" placeholder="Longitude" />
             <Input type="text" name="email" placeholder="Latitude"/>
           
-            <Button type="submit" text='Register'/>
+            <Button type="submit" text='Cadastrar'/>
 
           </form>
         </div>

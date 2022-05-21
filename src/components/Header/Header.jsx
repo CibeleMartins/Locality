@@ -13,8 +13,8 @@ export default function Header() {
               <img src={logoOp} alt='logo' width={130}></img>
             
               <nav className={styles.navbar}>
-                <Link to='/'>REGISTER</Link>
-                <Link to='/view'>VIEW</Link>
+                <Link to='/'>CADASTRO</Link>
+                <Link to='/AllMap'>MAPA</Link>
               </nav>
           </header>
         </>

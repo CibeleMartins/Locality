@@ -1,13 +1,9 @@
-
-
 import Map from "../components/Map/Map";
 
-
-export default function View ()  {
+export default function AllMap ()  {
 
   return (
     <>
-
     <Map></Map>
     </>
   )

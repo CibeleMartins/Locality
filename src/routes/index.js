@@ -1,7 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Register from "../pages/Register";
-import View from '../pages/View'
+import AllMap from '../pages/AllMap'
+import Teste from "../pages/Teste";
 
 
 const Rotas = () => {
@@ -11,7 +12,10 @@ const Rotas = () => {
         <Route exact path="/" element={<Register/>} />
       </Routes>
       <Routes>
-        <Route exact path="/view" element={<View/>} />
+        <Route exact path="/allMap" element={<AllMap/>} />
+      </Routes>
+      <Routes>
+        <Route exact path="/teste" element={<Teste/>} />
       </Routes>
     </>
   );
