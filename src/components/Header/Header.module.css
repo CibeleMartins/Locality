@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  background-color:#D3D3D3;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-right: 10px;
+  margin: 10px;
+
+}
+
+a:hover {
+  color: #05401E;
+ 
+}
+
+a:hover {
+  transform: translateY(2px);
+  transition: 1s;
+}
+
+.navbar {
+  width: 200px;
+  margin-top: 40px;
+  display: flex;
+  
+}
+
+img {
+  margin-top: 25px;
+  margin-left:30px;
+}
+
