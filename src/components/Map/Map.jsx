@@ -1,16 +1,12 @@
 
 import React from 'react';
-import L from 'leaflet';
 import {MapContainer, Marker, TileLayer, Popup} from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import Header from '../Header/Header'
 
-
-
 const position = [-24.89, -51.55];
 
 export default function Map() {
-
 
   return (
 

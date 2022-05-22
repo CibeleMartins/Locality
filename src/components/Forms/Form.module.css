@@ -14,3 +14,7 @@
   display: flex;
   justify-content: center;
 }
+
+.error_message {
+  color: rgb(240, 47, 47);
+}
