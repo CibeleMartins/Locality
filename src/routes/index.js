@@ -9,12 +9,8 @@ const Rotas = () => {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Register/>} />
-      </Routes>
-      <Routes>
-        <Route exact path="/allMap" element={<AllMap/>} />
-      </Routes>
-      <Routes>
+        <Route path="/" element={<Register/>} />
+        <Route path="/allMap" element={<AllMap/>} />
         <Route exact path="/teste" element={<Teste/>} />
       </Routes>
     </>

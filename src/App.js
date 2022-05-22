@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from "react-router-dom";
-import Rotas from './routes';
+import Rotas from './routes/index';
 
 import './App.css';
 

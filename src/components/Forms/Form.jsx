@@ -13,14 +13,14 @@ import Button from '../Button/Button';
 export default function Form({btnText}) {
 
 
-  let history = useNavigate()
+  let navigate = useNavigate()
 
   const {register, handleSubmit, formState: { errors }} = useForm()
 
   const addPost = data => axios.post("https://localityapi.herokuapp.com/localitys", data)
   .then(() => {
       console.log("Deu tudo certo")
-      history.push("/")
+      navigate.push("/allMap")
   })
   .catch(() => {
       console.log("DEU ERRADO")
@@ -54,7 +54,8 @@ export default function Form({btnText}) {
             {...register('longitude')}/>
             <p className={styles.error_message}>{errors.content?.message}</p>
           
-            <Button type="submit" text='Cadastrar'/>
+            <Button type="submit" text='Cadastrar'
+            onClick={()=> console.log('clicado')}/>
 
           </form>
         </div>
