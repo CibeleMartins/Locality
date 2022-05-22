@@ -16,12 +16,10 @@ a {
   letter-spacing: 3px;
   margin-right: 10px;
   margin: 10px;
-
 }
 
 a:hover {
   color: #05401E;
- 
 }
 
 a:hover {
@@ -33,7 +31,6 @@ a:hover {
   width: 200px;
   margin-top: 40px;
   display: flex;
-  
 }
 
 img {

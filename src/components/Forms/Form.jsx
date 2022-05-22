@@ -7,11 +7,7 @@ import styles from './Form.module.css';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
 
-
-
-
 export default function Form({btnText}) {
-
 
   let navigate = useNavigate()
 
@@ -22,8 +18,8 @@ export default function Form({btnText}) {
       console.log("Deu tudo certo")
       navigate.push("/allMap")
   })
-  .catch(() => {
-      console.log("DEU ERRADO")
+  .catch((error) => {
+      console.log(error)
   })
 
 
