@@ -6,7 +6,6 @@ import Input from '../Input/Input';
 import Button from '../Button/Button';
 import { useState } from 'react';
 
-
 export default function Form({btnText}) {
 
   let navigate = useNavigate()
