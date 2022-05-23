@@ -37,7 +37,7 @@ export default function Map() {
 
     <MapContainer
       center={position}
-      zoom={2}
+      zoom={5}
       style={{ width: '100%', height: '80vh', marginTop:'40px'}}
     >
 
