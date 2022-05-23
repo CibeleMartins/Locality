@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Bem vindo a Locality 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<p align="center">
+    <img src='./src/assets/images/logo.png' alt="Logo" width="300">
 
-## Available Scripts
+  <h3 align="center"></h3>
+ <br />
+  <p align="center">
+     Sumário
+      <p align="center">
+  <a href="#sobre"> Sobre </a> |
+  <a href="#conhecimentos-praticados"> Conhecimentos Praticados </a> |
+  <a href="#rodando-o-projeto"> Rodando o Projeto </a> |
+  <a href="#desenvolvido-por"> Desenvolvido por </a> |
+  <a href="#observações"> Observações </a>       
+       <br />
+    <br />
+    <h1 align="center">
+    <img src="./src/assets/images/gitHub.png" alt="Logo" width="250">
+ </h1>
+  </p>
+</p>
 
-In the project directory, you can run:
+Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sobre
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto foi desenvolvido em um processo seletivo. O objetivo foi desenvolver um site de cadastro de localidades, a partir do nome, latitude e longitude. O site deveria conter duas páginas, sendo a primeira de cadastro contendo um formulário, e a segunda com um mapa, onde as localidades cadastradas ficam inseridas com um marker.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Conhecimentos Praticados
 
-### `npm run build`
+✔ ReactJs <br>
+✔ React-Leaflet <br>
+✔ Leaflet<br>
+✔ Axios <br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Rodando o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Acesse a API através do [link](https://github.com/CibeleMartins/localityApi.git)
+- Utilize o Git Clone no repositório
+- **Abra ele em http://localhost:3001 em seu Navegador
+- No terminal do seu VSCode digite: npm install para instalar as dependências da aplicação, e npm start para rodar a API
+- Não se esqueça de clonar o repositório Locality, clicando [aqui](https://github.com/CibeleMartins/Locality.git)
+- Após seguir todos esses passos digite finalmente no terminal: 'npm start' para rodar o projeto!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Desenvolvido por
 
-### `npm run eject`
+- [Cibele Martins](https://github.com/CibeleMartins)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Observações
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sujeito à novas implementações. Sinta-se a vontade para explorar todo seu conhecimento utilizando nosso projeto, qualquer dúvida me procure no <a href='www.linkedin.com/in/cibelemartinssss/'>Linkedin</a>
