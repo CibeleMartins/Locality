@@ -36,7 +36,7 @@ export default function Map() {
       icon={markerIcon}
       >
       <Popup> 
-        A pretty CSS3 popup. <br /> Easily customizable.
+        Olá!<br/> Você clicou no Paraná!
       </Popup>
     </Marker>
      
