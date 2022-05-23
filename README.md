@@ -39,11 +39,11 @@ Este projeto foi desenvolvido em um processo seletivo. O objetivo foi desenvolve
 
 ## Rodando o Projeto
 
-- Acesse a API através do [link](https://github.com/CibeleMartins/localityApi.git)
-- Utilize o Git Clone no repositório
-- **Abra ele em http://localhost:3001 em seu Navegador
-- No terminal do seu VSCode digite: npm install para instalar as dependências da aplicação, e npm start para rodar a API
-- Não se esqueça de clonar o repositório Locality, clicando [aqui](https://github.com/CibeleMartins/Locality.git)
+- Acesse a API através do [link](https://github.com/CibeleMartins/localityApi.git).
+- Utilize o Git Clone no repositório.
+- **Abra ele em http://localhost:3001 em seu Navegador.
+- No terminal do seu VSCode digite: npm install para instalar as dependências da aplicação, e npm start para rodar a API.
+- Não se esqueça de clonar o repositório Locality, clicando [aqui](https://github.com/CibeleMartins/Locality.git).
 - Após seguir todos esses passos digite finalmente no terminal: 'npm start' para rodar o projeto!
 
 ## Desenvolvido por
@@ -53,4 +53,4 @@ Este projeto foi desenvolvido em um processo seletivo. O objetivo foi desenvolve
 
 ## Observações
 
-Este projeto está sujeito à novas implementações. Sinta-se a vontade para explorar todo seu conhecimento utilizando nosso projeto, qualquer dúvida me procure no <a href='www.linkedin.com/in/cibelemartinssss/'>Linkedin</a>
+Este projeto está sujeito à novas implementações. Sinta-se a vontade para explorar todo seu conhecimento utilizando nosso projeto, qualquer dúvida me procure no <a href='"https://www.linkedin.com/in/cibele-martins-85b910169/'>Linkedin</a>.
