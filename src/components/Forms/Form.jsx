@@ -2,10 +2,10 @@ import React from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
-
 import styles from './Form.module.css';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
+
 
 export default function Form({btnText}) {
 
@@ -22,14 +22,14 @@ export default function Form({btnText}) {
       console.log(error)
   })
 
-
-    return (
+return(
 
         <div className={styles.div}>
 
           <form className={styles.form} onSubmit={handleSubmit(addPost)}>
 
             <Input 
+            className={styles.input}
             type="text" 
             placeholder="Localidade" 
             name='nome' 
@@ -55,8 +55,9 @@ export default function Form({btnText}) {
 
           </form>
         </div>
+   
   
-    )
+      )
 
 }
 
