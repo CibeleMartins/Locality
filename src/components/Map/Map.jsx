@@ -36,7 +36,7 @@ export default function Map() {
       icon={markerIcon}
       >
       <Popup> 
-        Olá!<br/> Você clicou no Paraná!
+        Olá! Você clicou no Paraná!
       </Popup>
     </Marker>
      

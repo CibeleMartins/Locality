@@ -16,7 +16,7 @@ export default function Form({btnText}) {
   const addPost = data => axios.post("https://localityapi.herokuapp.com/localitys", data)
   .then(() => {
       console.log("Deu tudo certo")
-      navigate.push("/allMap")
+      navigate("/allMap")
   })
   .catch((error) => {
       console.log(error)
