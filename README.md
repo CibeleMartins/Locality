@@ -53,4 +53,4 @@ Este projeto foi desenvolvido em um processo seletivo. O objetivo foi desenvolve
 
 ## Observações
 
-Este projeto está sujeito à novas implementações. Sinta-se a vontade para explorar todo seu conhecimento utilizando nosso projeto, qualquer dúvida me procure no <a href='"https://www.linkedin.com/in/cibele-martins-85b910169/'>Linkedin</a>.
+Este projeto está sujeito à novas implementações. Sinta-se a vontade para explorar todo seu conhecimento utilizando nosso projeto, qualquer dúvida me procure no <a href='https://www.linkedin.com/in/cibele-martins-85b910169/'>Linkedin</a>.
